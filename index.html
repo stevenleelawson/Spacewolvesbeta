@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>SPaceWOlves</title>
+    <!-- /*<style>
+    /* a style sheet needs to be present for cursor hiding and custom cursors to work. */
+    </style>*/ -->
+    <link rel="stylesheet" href="style.css" media="screen" title="no title">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  </head>
+  <body>
+    <section>
+
+    <div class="sign">
+      <h1>SPaceWOlves</h1>
+      <h4>To move the SPaceWOlf (and his little friend), use the left, right, up, and down keys. To blast the evil asteriods to bits, press spacebar</h4>
+      <h3>Music recorded and performed by Steven Lee Lawson</h3>
+    </div>
+    <div class="dummyHolder">
+
+    </div>
+  </section>
+    <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="900px" width="600px"></canvas>
+    <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "Release/seventhbuild.data",
+    codeUrl: "Release/seventhbuild.js",
+    memUrl: "Release/seventhbuild.mem",
+
+  };
+</script>
+<script src="Release/UnityLoader.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="app.js"></script>
+
+  </body>
+</html>

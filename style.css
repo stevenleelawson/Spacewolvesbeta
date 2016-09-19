@@ -1,0 +1,56 @@
+html {
+  background-image: url("http://hdwalltop.com/wp-content/uploads/2015/02/space-black-background-tumblr-code.jpg");
+}
+body {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+section {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sign {
+  height: 15rem;
+  width: 25rem;
+  background-color: rgb(63, 245, 9);
+  margin: .5rem;
+  z-index: +1;
+  flex: 2;
+  font-size: 1rem;
+  padding: 1rem;
+  border: red solid .25rem;
+  font-family: 'Press Start 2P', cursive;
+
+
+}
+.game {
+  flex: 1;
+  /*margin-left: 1rem;*/
+}
+.dummyHolder {
+  height: 15rem;
+  width: 25rem;
+  margin: .75rem;
+
+  flex: 2;
+  padding: 1rem;
+
+}
+.loading {
+  color: red;
+  font-family: 'Press Start 2P', cursive;
+  position: fixed;
+  z-index: -1;
+  height: 6rem;
+  width: 24rem;
+  border: .25rem solid rgb(14, 239, 246);
+  background-color: rgb(63, 245, 9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
