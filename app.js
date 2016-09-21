@@ -9,7 +9,7 @@ $(document).ready(function(){
 });
 
 setTimeout(function(){
+  $('.leaderBoard').fadeOut("slow");
   $('.sign').fadeOut("slow");
   $('.loading').fadeOut("slow");
-  $('.leaderBoard').fadeOut("slow");
 }, 8000);
