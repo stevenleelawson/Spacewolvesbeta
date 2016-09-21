@@ -33,7 +33,7 @@ section {
 .game {
   height: 70vh;
   width: 30vw;
-  margin-right: 20rem;
+  /*margin-right: 20rem;*/
   margin-bottom: 18rem;
 }
 
@@ -50,6 +50,7 @@ section {
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  margin: 3;
 }
 .dummyHolder {
   height: 100vh;
@@ -67,7 +68,21 @@ h4 {
 h3 {
   align-self: flex-end;
 }
-
+form {
+  color: red;
+}
+.leaderBoard {
+  color: white;
+  background-image: url("http://feelgrafix.com/data/nebula/nebula-13.jpg");
+  border: red solid .25rem;
+  font-family: 'Press Start 2P', cursive;
+  padding: 1rem;
+  align-self: flex-end;
+  margin-left: 10rem;
+}
+li {
+  list-style: none;
+}
 .barlittle {
     background-color: rgb(246, 15, 43);
     background-image: -moz-linear-gradient(45deg, #2187e7 25%, #a0eaff);
